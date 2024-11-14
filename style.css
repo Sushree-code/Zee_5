@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif,arial;
+}
+
+
+
+.big-box{
+    left: 0;
+    height: 100vw;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav-bar{
+    background: #0f0617;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 79px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 101;
+}
+
+.logo {
+    height: 46px;
+    width: 46px;
+    
+}
+
+
+.nav-bar-inner-box {
+    position: absolute;
+    width: auto;
+    display: flex;
+    left:40px;
+    right:40px;
+}
+
+.left-nav-div {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+
+}
+
+.right-nav-div {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 5px;
+    align-items: center;
+    
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    
+}
+
+.bi-grid-3x3-gap-fill {
+    font-size: 15px; 
+    color: white;
+}
+
+.bi-grid-3x3-gap-fill:hover {
+    transition-duration: 500ms;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness:2px;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 20px;
+}
+
+.gap {
+    margin-right:30px;
+}
+
+.search-box {
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 348px;
+    
+}
+
+.input-box {
+    line-height: 35.14px;
+    background-color: black;
+    color:rgba(255, 255, 255, 0.747);
+    border: none;
+    margin-left: 40px;
+    width: 262px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    left: 0;
+    padding: 8px;
+   
+}
+
+.login-button {
+    height: 36px;
+    width: 65.33px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+
+.login-button:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 500ms;
+}
+
+.fa-crown {
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.buy-plan-button {
+    height: 37px;
+    width:106.09px;
+    border-radius: 5px;
+    background-color: #8230c6;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.buy-plan-button:hover {
+    background-color: #8230c6a1;
+    transition-duration: 500ms;
+}
+
+.language-button {
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .slide {
+    position: relative;
+    top: 85px;
+    justify-content: center;
+    
+} */
+
+.grid {
+    margin-top:20px ;
+    display: flex;
+    transform: translate(40px);
+    
+}
+
+.grid>.card {
+    position: relative;
+    background-color: black;
+    margin-right: 20px;
+    
+    
+
+}
+ 
+.grid>.card:hover{
+    padding: 6px;
+    background-color: white;
+    transition-duration: 500ms;
+    transition-delay: 5ms;
+    transform: scale(1.3,1.3);
+    z-index: 101;
+
+}
+
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    z-index: 101;
+    background-color: white;
+    
+    /* transform: scaleY(0); */
+    /* display: none; */
+    visibility: hidden;
+    
+}
+
+.card-body:hover {
+    /* visibility: visible; */
+    /* display: inline; */
+    position: absolute;
+    bottom: 0;
+    /* z-index: 101; */
+    background-color: white;
+    /* transform: scaleY(1.5); */
+    
+}
+
+/* .card-img-top,.card:hover{
+    visibility: visible;
+    transform: scale(1.3,1.3);
+} */
+
+
+.body{
+    position: relative;
+    top: 85px;
+}
